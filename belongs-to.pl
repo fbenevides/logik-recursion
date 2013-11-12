@@ -1,2 +1,2 @@
-belong(X, [X | L]).
-belong(X, [A | T]) :- belong(X, T).
+belong(X, [X | _]).
+belong(X, [_|T]) :- belong(X, T).
