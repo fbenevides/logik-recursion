@@ -1,2 +1,2 @@
-belong(X, [X | T]).
-belong(X, [H|T]) :- belong(X, T).
+pertence(X, [X | T]).
+pertence(X, [H|T]) :- pertence(X, T).
